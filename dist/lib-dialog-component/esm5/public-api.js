@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of lib-dialog
+ */
+// export * from './lib/lib-dialog.service';
+export * from './lib/lib-dialog.component';
+export * from './lib/lib-dialog.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2xpYi1kaWFsb2ctY29tcG9uZW50LyIsInNvdXJjZXMiOlsicHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILDRDQUE0QztBQUM1QyxjQUFjLDRCQUE0QixDQUFDO0FBQzNDLGNBQWMseUJBQXlCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIGxpYi1kaWFsb2dcbiAqL1xuXG4vLyBleHBvcnQgKiBmcm9tICcuL2xpYi9saWItZGlhbG9nLnNlcnZpY2UnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbGliLWRpYWxvZy5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbGliLWRpYWxvZy5tb2R1bGUnO1xuIl19

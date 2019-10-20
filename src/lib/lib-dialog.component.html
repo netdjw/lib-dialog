@@ -1,0 +1,44 @@
+<div class="modal" tabindex="-1" role="dialog" *ngIf="showDialog" aria-hidden="false">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{ title }}</h5>
+        <button type="button" class="close" data-dismiss="modal" i18n-aria-label="@@close" aria-label="Close"
+          (click)="click('canel')">
+          <fa-icon [icon]="icon.close"></fa-icon>
+        </button>
+      </div>
+      <div class="modal-body d-flex">
+        <div class="icon-container"
+          [ngClass]="{'text-success': type === 'message', 'text-danger': type === 'error' || type === 'delete'}">
+          <div *ngIf="type === 'delete'">
+            <fa-icon [icon]="icon.alert"></fa-icon>
+          </div>
+          <div *ngIf="type === 'error'">
+            <fa-icon [icon]="icon.error"></fa-icon>
+          </div>
+          <div *ngIf="type === 'message'">
+            <fa-icon [icon]="icon.info"></fa-icon>
+          </div>
+        </div>
+        <div class="content-container px-3">
+          <p>{{ content }}</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn"
+          [ngClass]="{'btn-success': type === 'message', 'btn-primary': type === 'error', 'btn-danger': type === 'delete'}"
+          (click)="click('ok')">
+            <span *ngIf="type === 'message'" i18n="@@ok">OK</span>
+            <span *ngIf="type === 'error'" i18n="@@close">Close</span>
+            <span *ngIf="type === 'delete'" i18n="@@delete">Delete</span>
+        </button>
+        <button type="button" class="btn btn-secondary"
+          *ngIf="!disableCancel || type === 'delete'"
+          (click)="click('cancel')" i18n="@@cancel">
+            Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

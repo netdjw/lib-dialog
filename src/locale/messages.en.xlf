@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+
+      <trans-unit id="ok" datatype="html">
+        <source>OK</source>
+        <target>OK</target>
+        <note priority="1" from="description">Confirm button text</note>
+        <note priority="1" from="meaning">User confirm / accept message if click this button</note>
+      </trans-unit>
+
+      <trans-unit id="cancel" datatype="html">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note priority="1" from="description">Cancel button text</note>
+        <note priority="1" from="meaning">User cancel / decline messages if click this button</note>
+      </trans-unit>
+
+      <trans-unit id="delete" datatype="html">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note priority="1" from="description">Delete button text</note>
+        <note priority="1" from="meaning">User confirm delete if click this button</note>
+      </trans-unit>
+
+      <trans-unit id="close" datatype="html">
+        <source>Close</source>
+        <target>Close</target>
+        <note priority="1" from="description">Close dialog button text</note>
+        <note priority="1" from="meaning">User close the dialog if click this button</note>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

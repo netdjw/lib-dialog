@@ -1,0 +1,45 @@
+{
+  "name": "lib-dialog-component",
+  "version": "1.0.0",
+  "author": "Balázs Winkler <djw@djw.hu>",
+  "description": "Dialog component for Angular projects to show modal dialogs",
+  "peerDependencies": {
+    "@angular/common": "^8.2.11",
+    "@angular/core": "^8.2.11",
+    "@fortawesome/angular-fontawesome": "^0.5.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "rxjs": "~6.4.0",
+    "zone.js": "~0.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netdjw/lib-dialog-component"
+  },
+  "keywords": [
+    "dialog",
+    "dialog component",
+    "angular",
+    "modal",
+    "modal dialog",
+    "modal dialog component",
+    "angular modal dialog",
+    "angular modal dialog component",
+    "confirmation dialog",
+    "confirmation modal dialog",
+    "info dialog"
+  ],
+  "main": "bundles/lib-dialog-component.umd.js",
+  "module": "fesm5/lib-dialog-component.js",
+  "es2015": "fesm2015/lib-dialog-component.js",
+  "esm5": "esm5/lib-dialog-component.js",
+  "esm2015": "esm2015/lib-dialog-component.js",
+  "fesm5": "fesm5/lib-dialog-component.js",
+  "fesm2015": "fesm2015/lib-dialog-component.js",
+  "typings": "lib-dialog-component.d.ts",
+  "metadata": "lib-dialog-component.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

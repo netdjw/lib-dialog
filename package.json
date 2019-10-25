@@ -1,6 +1,6 @@
 {
   "name": "lib-dialog-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Balázs Winkler <djw@djw.hu>",
   "description": "Dialog component for Angular projects to show modal dialogs",
   "dependencies": {
@@ -35,5 +35,4 @@
     },
     "dest": "dist/lib-dialog-component"
   }
-
 }
